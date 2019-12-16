@@ -1,0 +1,114 @@
+body {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    font-size: small;
+    font-family: arial, sans-serif;
+    color: #222;
+}
+
+#search_function {
+    margin: auto;
+    padding-top: 109px;
+}
+
+#search_buttons{
+    text-align: center;
+}
+
+#logo {
+    margin: 0 auto;
+    width: 272px;
+}
+
+#search_container {
+    background: #fff;
+    box-shadow: none;
+    width: 582px;
+    height: 39px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    margin: 0 auto;
+    z-index: 3;
+    margin: 20px 0;
+    display: flex;
+    flex: 1;
+    padding: 5px 8px 0 14px;
+}
+
+#search_bar {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    outline: none;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    width: 487px;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#search_buttons button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #5f6368;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+}
+
+#voice_container{
+    height: 40px;
+    width: 44px;
+    margin-top: -3px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.mic_image {
+    background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#voice_button {
+    background: transparent;
+    border: 0;
+    height: 40px;
+    width: 24px;
+    line-height: 44px;
+    padding: 0 8px;
+    flex: 1 0 auto;
+    align-items: center;
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.mag_container {
+    margin: auto;
+}
+
+.mag {
+    color: #9AA0A6;
+    height: 20px;
+    width: 20px;
+}
+
+.mag svg {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
