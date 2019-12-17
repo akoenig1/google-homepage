@@ -6,13 +6,31 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!-- This is the header -->
+        <ul id="header">
+            <div id="top_left">
+                <li><a>About</a></li>
+                <li><a>Store</a></li>
+            </div>
+            <div id="top_right">
+                <li><a>Gmail</a></li>
+                <li><a>Images</a></li>
+                <li><div id="google_apps"></div></li>
+                <li><div id="profile_button"></div></li>
+            </div>
+        </ul>
+        <!-- This is the middle of the page -->
         <div id="search_function">
             <div>
+                <!-- This is the Google logo -->
                 <div id="logo">
                     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
                 </div>
+                <!-- This contains the search bar and buttons -->
                 <form>
+                    <!-- This is the search bar -->
                     <div id="search_container">
+                        <!-- This is the magnifying glass in the search bar -->
                         <div id="mag_container">
                             <div id="mag">
                                 <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
@@ -20,13 +38,16 @@
                                 </svg>
                             </div>
                         </div>
+                        <!-- This is the search bar itself -->
                         <input type="text" id="search_bar" name="search" size="80">
+                        <!-- This is the voice to text button -->
                         <div id="voice_container">
                             <div id="voice_button">
                                 <div class="mic_image"></div>
                             </div>
                         </div>
                     </div>
+                    <!-- These are the search buttons -->
                     <div id="search_buttons">
                         <button type="button">Google Search</button>
                         <button type="button">I'm Feeling Lucky</button>
@@ -34,5 +55,6 @@
                 </form>
             </div>
         </div>
+        <!-- This is the footer -->
     </body>
 </html>
